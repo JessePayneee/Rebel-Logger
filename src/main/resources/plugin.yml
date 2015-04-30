@@ -1,0 +1,7 @@
+name: JRebel-Test
+main: io.github.jessepayneee.Main
+version: 1.0
+commands:
+   rclass:
+      description: Used to reload a class.
+      usage: /<command>

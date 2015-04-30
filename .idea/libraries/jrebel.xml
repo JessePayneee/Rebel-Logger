@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jrebel">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/TestServer/jrebel.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
