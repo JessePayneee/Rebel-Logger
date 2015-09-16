@@ -23,8 +23,9 @@ public class Main extends JavaPlugin {
             Bukkit.getLogger().warning("===============================================");
             Bukkit.getLogger().warning("It appears JRebel has not been configured correctly, and as a result, Rebel-Logger was not able to load.");
             Bukkit.getLogger().warning("===============================================");
-            Bukkit.getServer().getServicesManager().unregister(this);
-            return;
+        }finally{
+             Bukkit.getServer().getServicesManager().unregister(this);
+             return;
         }
     }
 
